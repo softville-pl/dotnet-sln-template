@@ -9,6 +9,50 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D7FD92B-9F1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "src\ConsoleApp\ConsoleApp.csproj", "{59FA7E00-9569-4EFF-81FA-565508D9F003}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "items", "items", "{8C0CB4CF-4414-4788-B21E-473D49721705}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{512CB3C8-9B09-4E12-8D4C-44D5A90B269E}"
+	ProjectSection(SolutionItems) = preProject
+		build\README.md = build\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployments", "deployments", "{9732AB3F-A270-4663-AB7D-0CF351B1F736}"
+	ProjectSection(SolutionItems) = preProject
+		deployments\README.md = deployments\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4D2EB93B-8027-4030-B83D-A60213F57592}"
+	ProjectSection(SolutionItems) = preProject
+		docs\README.md = docs\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{282209E8-4865-4DB3-85B6-C2D03E77D1C5}"
+	ProjectSection(SolutionItems) = preProject
+		examples\README.md = examples\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{BC424F93-A09F-4C0A-9B05-9F66678404CD}"
+	ProjectSection(SolutionItems) = preProject
+		packages\README.md = packages\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A29920C5-9DF5-4414-BCF6-8FA926A67279}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\README.md = scripts\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7EBB7D97-7D2D-4B38-9952-6AB94B83BB00}"
+	ProjectSection(SolutionItems) = preProject
+		tests\README.md = tests\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
