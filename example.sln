@@ -16,6 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "items", "items", "{8C0CB4CF
 		Directory.Build.targets = Directory.Build.targets
 		LICENSE = LICENSE
 		README.md = README.md
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{512CB3C8-9B09-4E12-8D4C-44D5A90B269E}"
