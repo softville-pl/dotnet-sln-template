@@ -53,6 +53,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7EBB7D97
 		tests\README.md = tests\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "tests\UnitTest\UnitTest.csproj", "{06B6FACB-8264-491A-BA5A-989EF748D4FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,8 +68,13 @@ Global
 		{59FA7E00-9569-4EFF-81FA-565508D9F003}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59FA7E00-9569-4EFF-81FA-565508D9F003}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59FA7E00-9569-4EFF-81FA-565508D9F003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B6FACB-8264-491A-BA5A-989EF748D4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B6FACB-8264-491A-BA5A-989EF748D4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B6FACB-8264-491A-BA5A-989EF748D4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B6FACB-8264-491A-BA5A-989EF748D4FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{59FA7E00-9569-4EFF-81FA-565508D9F003} = {6D7FD92B-9F1B-4E2F-9F4D-8F2775D33697}
+		{06B6FACB-8264-491A-BA5A-989EF748D4FB} = {7EBB7D97-7D2D-4B38-9952-6AB94B83BB00}
 	EndGlobalSection
 EndGlobal
