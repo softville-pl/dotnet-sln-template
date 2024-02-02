@@ -3,6 +3,7 @@
   <PropertyGroup>
     <IsTestProject>true</IsTestProject>
     <PublishAot>false</PublishAot>
+    <RootNamespace>UnitTest</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
