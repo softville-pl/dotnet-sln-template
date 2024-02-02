@@ -8,5 +8,6 @@
     <WarningLevel>4</WarningLevel>
     <IsPackable>false</IsPackable>
     <LangVersion>latest</LangVersion>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild> <!--Enable code analysis on build https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview?tabs=net-7#enable-on-build-->
   </PropertyGroup>
 </Project>
