@@ -13,4 +13,22 @@
     <PackageReference Include="Microsoft.Extensions.Http"/>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="appSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="appSettings.dev.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DependentUpon>appSettings.json</DependentUpon>
+    </None>
+    <None Update="appSettings.stag.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DependentUpon>appSettings.json</DependentUpon>
+    </None>
+    <None Update="appSettings.prod.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DependentUpon>appSettings.json</DependentUpon>
+    </None>
+  </ItemGroup>
+
 </Project>

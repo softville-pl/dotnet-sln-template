@@ -1,0 +1,12 @@
+﻿{
+    "$schema": "http://json.schemastore.org/launchsettings.json",
+    "profiles": {
+        "ConsoleApp": {
+            "commandName": "Project",
+            "environmentVariables": {
+                "DOTNET_ENVIRONMENT": "dev",
+                "ASPNETCORE_ENVIRONMENT": "dev"
+            }
+        }
+    }
+}
