@@ -29,6 +29,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>appSettings.json</DependentUpon>
     </None>
+
+    <InternalsVisibleTo Include="UnitTests"/>
   </ItemGroup>
 
 </Project>

@@ -1,3 +1,4 @@
+using ConsoleApp;
 using FluentAssertions;
 using Xunit;
 
